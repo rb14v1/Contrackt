@@ -1,0 +1,1 @@
+- [x] Update SectionTitle background to 'teal' in src/components/Sidebar.js

@@ -1,0 +1,77 @@
+# -----------------------------------------
+# Python Bytecode
+# -----------------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+ 
+# -----------------------------------------
+# Virtual Environment
+# -----------------------------------------
+venv/
+.env/
+.venv/
+env/
+ENV/
+ 
+# -----------------------------------------
+# Environment Variables
+# -----------------------------------------
+.env
+.env.*
+*.env
+ 
+# -----------------------------------------
+# Django / Python Specific
+# -----------------------------------------
+db.sqlite3
+db.sqlite3-journal
+ 
+# Prevent migration cache except __init__.py
+resume/migrations/
+!resume/migrations/__init__.py
+ 
+# If you have migrations inside other apps:
+conTrackt/migrations/
+!conTrackt/migrations/__init__.py
+ 
+# Any backend data files (your chat_history.json)
+data/*.json
+ 
+# -----------------------------------------
+# Static & Media
+# -----------------------------------------
+staticfiles/
+static_root/
+media/
+ 
+# -----------------------------------------
+# Logs & Reports
+# -----------------------------------------
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+ 
+# -----------------------------------------
+# Build / Distribution
+# -----------------------------------------
+build/
+dist/
+*.egg-info/
+ 
+# -----------------------------------------
+# IDE / Editor
+# -----------------------------------------
+.vscode/
+.idea/
+ 
+# -----------------------------------------
+# Sensitive & Keys
+# -----------------------------------------
+*.key
+secrets.py
+ 
+ 
