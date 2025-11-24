@@ -138,7 +138,7 @@ const Footer = styled.footer`
 `;
 
 
-const API_URL = 'http://18.212.212.53';
+const API_URL = 'http://18.212.212.53'; 
 
 const ChatbotPage = ({ onNavigateHome }) => {
   const [isTermsModalOpen, setIsTermsModalOpen] = useState(false);
