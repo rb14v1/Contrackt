@@ -167,7 +167,7 @@ const NoDataText = styled.div`
   padding: 20px;
 `;
 
-const API_BASE = "http://localhost:8000/api/contracts";
+const API_BASE = "http://18.212.212.53/api/contracts";
 
 const CONTRACT_CATEGORIES = [
     { key: 'all', label: 'All Contracts' },

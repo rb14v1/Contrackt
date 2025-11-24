@@ -2,7 +2,7 @@
  * API service for chatbot communication
  */
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000'; 
+const API_URL = process.env.REACT_APP_API_URL || 'http://18.212.212.53'; 
 
 /**
  * Send a message to the chatbot API

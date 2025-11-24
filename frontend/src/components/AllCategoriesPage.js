@@ -21,7 +21,7 @@ const CONTRACT_CATEGORIES = [
   { key: 'nda', label: 'NDA Agreements' },
 ];
 
-const API_BASE = "http://localhost:8000/api/contracts";
+const API_BASE = "http://18.212.212.53/api/contracts";
 const categoryApiMap = {
   all: `${API_BASE}/all/`,
   employee_contract: `${API_BASE}/employee_contract/`,
