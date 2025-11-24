@@ -16,7 +16,7 @@ import ReminderPage from './components/ReminderPage';  // ✅ Import
 
 import { GlobalStyle } from './styles/GlobalStyles';
  
-const API_URL = 'http://127.0.0.1:8000';
+const API_URL = 'http:18.212.212.53';
  
 const AppContainer = styled.div`
 

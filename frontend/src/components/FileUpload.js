@@ -411,7 +411,7 @@ const FileUpload = ({ onFilesSelected, maxFiles = 5, acceptedTypes = '.pdf', onU
       formData.append('contract_category', fileItem.category);
 
       try {
-        const response = await fetch("http://127.0.0.1:8000/upload/", {
+        const response = await fetch("http://18.212.212.53/upload/", {
           method: "POST",
           body: formData,
         });
