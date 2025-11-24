@@ -17,7 +17,7 @@ ALLOWED_HOSTS = ['.elasticbeanstalk.com']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '18.212.212.53']
 
 # ✅ Application definition
 INSTALLED_APPS = [
